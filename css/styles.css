@@ -1,0 +1,73 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Lato', sans-serif;
+}
+
+.social-links{
+  display: none;
+}
+
+.navigation-link{
+
+}
+.logo-image{
+  display: none;
+}
+.hamburger{
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 50px 0;
+  color: #272a31;
+  transition: all 0.3s ease-in-out;
+  align-self: flex-start;
+}
+.mobile-links{
+   display: none; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  opacity: 0.9;
+  position: fixed;
+}
+.mobile-links{
+  margin-bottom: 20px;
+}
+
+.nav-menu li {
+list-style: none;
+display: flex;
+
+}
+
+.nav-about  {
+  color: #ec5242;
+}
+
+
+.nav-menu  a {
+  gap:40px;
+  text-decoration: none;
+  color: #272a31;
+  font-size: 36px;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.nav-menu a:hover {
+  color: #ec5242;
+  border: 1px solid #272a31;
+}
+
+.info-head{
+  background-image: url(../images/basketballpicture.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
