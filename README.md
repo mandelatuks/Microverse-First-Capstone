@@ -37,9 +37,7 @@ Open a index.html file with your code editor of your choice and/or a browser of 
 Open the project using a live saver extension that can be found into your code editor.
 ~~~
 
-## Authors
-
-👤 **Author: Mandela Tumukunde**
+## 👤 Author: Mandela Tumukunde
 
 - GitHub:[@mandelatuks](https://github.com/mandelatuks)
 - Twitter:  [@MandelaTm1](https://twitter.com/MandelaTm1)
@@ -57,7 +55,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
- Theme Original design idea by: [Cindy Shin in Behance](https://www.behance.net/adagio07)
+- Theme Original design idea by: [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 ## 📝 License
 
