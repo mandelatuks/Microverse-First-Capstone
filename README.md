@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 ~~~
-git clone https://github.com/mandelatuks/-Portfolio/
+git clone https://github.com/mandelatuks/Microverse-First-Capstone
 cd Microverse-First-Capstone
 ~~~
 Open a index.html file with your code editor of your choice and/or a browser of your choice.
