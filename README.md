@@ -1,56 +1,49 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Microverse First Capstone
 
-> Description the project.
+> This Project was built during the microverse training, in this project am demostraining the understunding of the
+>  HTML,CSS,JAVASCRIPT and the use of clean code
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JAVASCRIPT
 
-## Live Demo (if available)
+## Live Demo (can be found here)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo](https://github.com/mandelatuks/Microverse-First-Capstone)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+**If you want to this project kindly check the [ GitHub repository](https://github.com/mandelatuks/Microverse-First-Capstone)**
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Prerequisites 
+ -Web Browser
+ -Code Editor:[visual Studio code](https://code.visualstudio.com/) 
 
 ### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+~~~
+git clone https://github.com/mandelatuks/-Portfolio/
+cd Microverse-First-Capstone
+~~~
+Open a index.html file with your code editor of your choice and/or a browser of your choice.
+~~~
+Open the project using a live saver extension that can be found into your code editor.
+~~~
 
 ## Authors
 
-👤 **Author1**
+👤 **Author: Mandela Tumukunde**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub:[@mandelatuks](https://github.com/mandelatuks)
+- Twitter:  [@MandelaTm1](https://twitter.com/MandelaTm1)
+- LinkedIn: [@Mandela Tumukunde](https://www.linkedin.com/in/mandela-tumukunde-794755194/)
 
 ## 🤝 Contributing
 
@@ -64,9 +57,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+. Theme Original design idea by: [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 ## 📝 License
 
