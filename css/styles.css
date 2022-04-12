@@ -1,8 +1,12 @@
+
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
 body{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'Lato', sans-serif;
+overflow-x: hidden;
 }
 
 .social-links{
@@ -12,6 +16,10 @@ font-family: 'Lato', sans-serif;
 .navigation-link{
 
 }
+.nav-icons{
+font-size: 30px;
+}
+
 .logo-image{
   display: none;
 }
@@ -24,7 +32,7 @@ font-family: 'Lato', sans-serif;
   align-self: flex-start;
 }
 .mobile-links{
-   display: none; 
+   /* display: none;  */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -80,6 +88,7 @@ h1{
 }
 
 .hello-text{
+  width: inherit;
   font-size: 26px;
   font-weight: bold;
   color: #ec5242;
@@ -103,7 +112,7 @@ h1{
 
 .location{
   color: #fff;
-  margin: 20px 0;
+  margin: 0;
 }
 
 .main-progrmas {
@@ -180,19 +189,23 @@ width: 50px;
 }
 
 .speakers-wrapper{
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 40px 0;
-  margin: 0 auto;
-}
-.event-speakers{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 2fr 2fr;
+  margin: 0 auto; */
+  display: flex;
+  flex-direction: column;
   column-gap: 10px;
   margin: 10px auto;
+}
+.event-speakers{
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  gap: 10%;
 }
 
 .speakers-wrapper h4 {
@@ -236,4 +249,91 @@ hr.bottom{
   color: #272a31;
     
 }
+
+.paterns{
+  width: 100%;
+  background-color: #272a31;
+}
+.paterns-info{
+  text-align: center;
+  color: #fff;
+}
+
+.paterns-logo{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fiba-logo{
+width: 20%;
+}
+.zbalogo{width: 20%;}
+
+.para-footer{ 
+  color: #272a31;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footerarea{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    background: #fff;
+}
+
+/* about css */
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+  }
+  
+.navigation-link{
+  display: none;
+}
+
+.about-container{
+  background-image: url(../images/basketballpicture.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  height: auto;
+}
+
+
+.about-header{
+  color: #ec5242;
+  text-align: center;
+}
+
+.more-details-about{
+  border: 2px solid #fff;
+  background-color: #fff ;
+  color:  #272a31;
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+ .contact{
+  text-align: center;
+  margin-bottom: 0;
+  color: #fff;
+  padding: 20px;
+}
+
+.email-link {
+  text-align: center;
+  margin-bottom: 0;
+  color: #fff;
+}
+
 
