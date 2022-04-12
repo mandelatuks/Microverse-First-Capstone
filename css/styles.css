@@ -32,7 +32,7 @@ font-size: 30px;
   align-self: flex-start;
 }
 .mobile-links{
-   /* display: none;  */
+   display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -46,6 +46,7 @@ font-size: 30px;
 }
 .mobile-links{
   margin-bottom: 20px;
+  
 }
 
 .nav-menu li {
@@ -95,24 +96,46 @@ h1{
 }
 .more-details{
   border: 2px solid #fff;
-  margin: 40px 0;
   padding: 10px;
   color: #272a31;
   font-size: 14px;
   font-weight: 700;
   line-height: 20px;
   color: #fff;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.column {
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  flex-direction: column;
+  color: white;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: "Lato", sans-serif;
 }
 
 .date-event {
   font-size: 25px;
   font-weight: 900;
   color: #fff;
+  margin-left: 20px;
 }
 
 .location{
+  margin-top: 20px;
   color: #fff;
-  margin: 0;
+  margin-left: 20px;
+  margin-bottom: 0;
+
 }
 
 .main-progrmas {
@@ -128,6 +151,7 @@ h1{
   justify-content: center;
   color: #fff;
   font-weight: 100;
+  margin-top: 0;
 }
 
 hr{
@@ -293,9 +317,6 @@ body{
   overflow-x: hidden;
   }
   
-.navigation-link{
-  display: none;
-}
 
 .about-container{
   background-image: url(../images/basketballpicture.jpg);
@@ -465,4 +486,47 @@ color: #d3d3d3;
   color: #272a31;
   font-size: 14px;
   line-height: 16px;
+}
+
+@media (min-width: 768px) {
+  
+  
+  .hamburger {
+    display: none;
+  }
+  .social-links{
+    display: block;
+  }
+
+  .navigation-link{
+    display: none
+  }
+
+  #mobile-links{
+    display: none;
+  }
+.social-links{
+  background-color: #272a31;
+  width: 100%;
+  height: 50px;
+  
+}
+
+.top-links{
+  display: flex;
+  margin-top: 0;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+.top-nav-list a{
+  color: #fff;
+  text-decoration: none;
+ font-family: lato,;
+}
+
 }
