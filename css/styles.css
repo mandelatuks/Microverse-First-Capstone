@@ -335,5 +335,41 @@ body{
   margin-bottom: 0;
   color: #fff;
 }
+.about-logo-area{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.all-start-text{
+  color: #272a31;
+  font-weight: 700;
+  font-size: 25px;
+  align-self: center;
+  text-align: center;
+  margin-top: 40px;
+  width: 90%;
+}
 
+.details-about-logo{
+  color: #272a31;
+  font-size: 16px;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 40px;
+  padding: 50px;
+  line-height: 20px;
+  border: 1px solid #d3d3d3;
+}
+
+.logo-zba{
+  width: 90%;
+  margin: 0 auto 40px 0;
+ 
+}
+
+.all-star_past-event{
+  text-align: center;
+  font-size: 12px;
+}
 
