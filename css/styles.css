@@ -489,7 +489,13 @@ color: #d3d3d3;
 }
 
 @media (min-width: 768px) {
-  
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+    }
   
   .hamburger {
     display: none;
@@ -527,6 +533,138 @@ color: #d3d3d3;
   color: #fff;
   text-decoration: none;
  font-family: lato,;
+}
+
+.desktop-nav {
+  background-color: #fff;
+  display: flex;
+  box-shadow: 0 6px 2px -2px rgba(166, 166, 182, 0.5);
+}
+
+.logo-image3{
+  width: 50px;
+}
+
+.desktop-nav{
+  
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+  
+}
+
+.desk-menu{
+ 
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 20px;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+.desk-menu li{
+  padding-left: 50px;
+  text-decoration: none;
+  list-style: none;
+
+}
+.desk-menu a{
+  color: #272a31;
+  text-decoration: none;
+}
+
+.campain {
+  color: #ec5242 !important;
+  border: 2px solid #ec5242;
+  padding: 10px;
+}
+
+.desk-menu li a:hover {
+  color: #ec5242;
+  text-decoration: underline;
+}
+
+.info-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hello-text{
+  text-align: center;
+}
+
+.more-details{
+  border: 2px solid rgb(255, 255, 255);
+    padding: 30px;
+    font-size: 26px;
+    line-height: 45px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.main-progrmas{
+  width: 100%;
+  height: 500px;
+}
+.article-wrapper{
+  flex-direction: row;
+}
+.cards-program{
+  justify-content: center;
+    flex-direction: column;
+    margin-right: 20px;
+    text-align: center;
+}
+.join-button{
+  display: none;
+}
+.destop-join{
+  display: block;
+  color: #fff;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.speakers-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.more-bitton{
+  display: none;
+}
+hr.bottom{
+  color: #6b6a6a !important;
+}
+
+#downpart{
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+ 
+}
+
+.zbalogo{
+  margin-left: 90px;
+  width: 20%;
+    align-self: center;
+}
+.para-footer{
+  margin-right: 90px;
 }
 
 }
