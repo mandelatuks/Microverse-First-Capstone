@@ -225,6 +225,7 @@ hr {
   margin-left: 15px;
   margin-right: 10px;
   width: 92%;
+  align-items: center;
 }
 
 .program-header {
