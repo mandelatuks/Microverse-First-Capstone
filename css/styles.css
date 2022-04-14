@@ -735,9 +735,9 @@ hr.all-start-line {
   }
 
   .zbalogo {
-    margin-left: 90px;
     width: 50px;
-    align-self: center;
+    margin-right: 200px;
+    padding-right: 300px;
   }
 
   .para-footer {
@@ -837,8 +837,6 @@ hr.all-start-line {
 
   .logofooter {
     width: 50px;
-
-    /* width: 8%; */
     padding-left: 50px;
     margin-left: 50px;
   }
