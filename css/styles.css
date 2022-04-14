@@ -207,6 +207,7 @@ hr {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  width: 100%;
 }
 
 .cards-program img {
@@ -221,8 +222,9 @@ hr {
   row-gap: 20px;
   margin-bottom: 20px;
   background-color: rgba(209, 209, 255, 0.1);
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 15px;
+  margin-right: 10px;
+  width: 92%;
 }
 
 .program-header {
@@ -237,6 +239,7 @@ hr {
   padding-left: 10px;
   font-size: 15px;
   line-height: 20px;
+  padding-right: 10px;
 }
 
 .destop-join {
