@@ -16,6 +16,10 @@
 
 [Live Demo](https://mandelatuks.github.io/Microverse-First-Capstone/)
 
+## Video for Documentation (can be found here)
+
+[Video](https://www.loom.com/share/541483dbb87f43c1826af4b27364fbd0)
+
 
 ## Getting Started
 
