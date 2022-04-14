@@ -14,7 +14,7 @@
 
 ## Live Demo (can be found here)
 
-[Live Demo](https://github.com/mandelatuks/Microverse-First-Capstone)
+[Live Demo](https://mandelatuks.github.io/Microverse-First-Capstone/)
 
 
 ## Getting Started
