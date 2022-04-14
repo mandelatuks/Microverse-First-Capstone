@@ -282,7 +282,7 @@ hr {
   display: flex;
   justify-content: space-between;
   padding: 5%;
-  gap: 10%;
+  gap: 5%;
 }
 
 .speakers-wrapper h4 {
@@ -375,7 +375,7 @@ hr.bottom {
 
 /* about css */
 .about-container {
-  background-image: url(../images/basketballpicture.jpg);
+  background-image: url(../images/mobile_intro_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -388,6 +388,7 @@ hr.bottom {
   color: #ec5242;
   text-align: center;
   margin-top: 0;
+  padding-top: 50px;
 }
 
 .more-details-about {
@@ -404,14 +405,14 @@ hr.bottom {
 .contact {
   text-align: center;
   margin-bottom: 0;
-  color: #fff;
+  color: #272a31;
   padding: 20px;
 }
 
 .email-link {
   text-align: center;
   margin-bottom: 0;
-  color: #fff;
+  color: #272a31;
 }
 
 .about-logo-area {
@@ -470,12 +471,15 @@ hr.all-start-line {
 .event1 {
   display: flex;
   flex-direction: column;
-  background-color: rgb(236, 82, 66);
+  background-image: url(../images/basketball.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
   width: 80%;
   height: 220px;
   margin: 0 auto;
   color: #fff;
   margin-bottom: 20px;
+  opacity: 0.8;
 }
 
 .event1 h2 {
@@ -491,11 +495,14 @@ hr.all-start-line {
 .events2 {
   display: flex;
   flex-direction: column;
-  background-color: rgb(236, 82, 66);
+  background-image: url(../images/basketball.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
   width: 80%;
   height: 220px;
   margin: 0 auto;
   color: #fff;
+  opacity: 0.8;
 }
 
 .events2 h2 {
@@ -652,7 +659,7 @@ hr.all-start-line {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(../images/basketball2image.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url(../images/basketball2image.jpg);
   }
 
   .hello-text {
