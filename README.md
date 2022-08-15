@@ -5,6 +5,7 @@
 > This Project was built during the microverse training, in this project am demostraining the understunding of the
 >  HTML,CSS,JAVASCRIPT and the use of clean code
 
+![](https://user-images.githubusercontent.com/38649067/184752802-464cfd07-0995-46b1-ada9-56441135abe5.png)
 
 ## Built With
 
